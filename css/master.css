@@ -68,3 +68,27 @@ div.contatti>span{
   left: 85%;
   transform: translate(-50%, -50%);
 }
+
+/* parte di nav */
+.menu{
+  height: 40px;
+  width: 1500px;
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+
+.buttonmenu{
+  text-decoration: none;
+  color: black;
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.fas, .far{
+  padding: 20px;
+  text-decoration: none;
+  color: black;
+}
