@@ -70,6 +70,15 @@ div.contatti>span{
 }
 
 /* parte di nav */
+nav{
+  position: relative;
+}
+
+nav>img{
+  width: 300px;
+  padding: 40px;
+}
+
 .menu{
   height: 40px;
   width: 1500px;
@@ -91,4 +100,85 @@ div.contatti>span{
   padding: 20px;
   text-decoration: none;
   color: black;
+}
+
+/* sezione immagine centrale */
+section>img{
+  width: 100%;
+}
+
+/* parte del main */
+.story{
+  float: left;
+  height: 500px;
+  width: 250px;
+  margin-left: 300px;
+  margin-top: 100px;
+  color: #a51b0b;
+}
+
+.story>h2{
+  font-size: 50px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.story>p{
+  font-size: 25px;
+  font-family: 'Roboto Mono', monospace;
+  color: lightgrey;
+}
+
+.image{
+  float: left;
+  margin-left: 100px;
+  margin-top: 60px;
+  height: 800px;
+  width: 1000px;
+  position: relative;
+}
+
+#pastafresca{
+  height: 800px;
+  width: 525px;
+  background-image: url("../img/Pasta-Fresca.jpg");
+  background-size: cover;
+}
+
+.infoimage{
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  background-color: white;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+#sughi{
+  height: 400px;
+  width: 450px;
+  background-image: url("../img/suhi.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#pastaripiena, #stagionali{
+  height: 375px;
+  width: 212px;
+}
+
+#pastaripiena{
+  background-image: url("../img/pastaripiena.jpg");
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 550px;
+}
+
+#stagionali{
+  background-image: url("../img/stagionali.jpg");
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
