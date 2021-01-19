@@ -5,10 +5,18 @@
   box-sizing: border-box;
 }
 
+body{
+  height: 1500px;
+}
+
 /* parte di header */
 
+header{
+  height: 4%;
+}
+
 .contatti{
-  height: 50px;
+  height: 60%;
   width: 100%;
   background-color:  #a51b0b;
   color: white;
