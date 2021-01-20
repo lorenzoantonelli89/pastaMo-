@@ -83,22 +83,22 @@ nav{
 }
 
 nav>img{
-  width: 300px;
-  padding: 40px;
+  width: 200px;
+  padding: 2% 1% 1% 1%;
 }
 
 .menu{
   height: 40px;
-  width: 1500px;
+  width: 100%;
   position: absolute;
-  top: 150px;
-  left: 600px;
+  top: 45%;
+  left: 18%;
 }
 
 .buttonmenu{
   text-decoration: none;
   color: black;
-  padding: 50px;
+  padding: 40px;
   font-size: 20px;
   font-weight: bold;
   font-family: 'Roboto Mono', monospace;
@@ -116,6 +116,11 @@ section>img{
 }
 
 /* parte del main */
+main{
+  height: 100%;
+  width: 100%;
+}
+
 .story{
   float: left;
   height: 500px;
@@ -189,4 +194,11 @@ section>img{
   position: absolute;
   bottom: 0;
   right: 0;
+}
+
+/* parte del footer */
+.footer{
+  height: 500px;
+  width: 100%;
+  background-color: #a51b0b;
 }
